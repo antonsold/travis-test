@@ -3,7 +3,9 @@
   "description": "Simple Travis-CI check for JSHint (Code Linting)",
   "author": "Anton Soldatenkov",
   "version": "0.0.1",
-  "devDependencies": {},
+  "devDependencies": {
+    "jshint": "^2.10.2"
+  },
   "scripts": {
     "test": "jshint hello.js"
   }
